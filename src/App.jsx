@@ -1,14 +1,10 @@
-import { useState } from 'react'
-import './App.css'
-import NepaliCalendar from './Component/Calendar/NepaliCalendar'
+import NepaliCalendar from './Component/Calendar/NepaliDatePicker.jsx'
 
 function App() {
 
   return (
     <>
-      <Routes>
         <NepaliCalendar/>
-      </Routes>
     </>
   )
 }
